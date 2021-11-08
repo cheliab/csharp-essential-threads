@@ -32,8 +32,6 @@ namespace Threads_001
             
             // до этого места программа не дойдет
             Console.ReadLine();
-            
-            
         }
     }
 }
