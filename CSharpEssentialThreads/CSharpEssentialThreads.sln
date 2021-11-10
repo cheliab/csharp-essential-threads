@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_001", "Threads_001\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_002", "Threads_002\Threads_002.csproj", "{CC53831B-8C45-4F77-B048-2FE46D52D98F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_002_PointerExample", "Threads_002_PointerExample\Threads_002_PointerExample.csproj", "{7B2DE79D-4DF9-4531-95F9-B84E87D4F2B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CC53831B-8C45-4F77-B048-2FE46D52D98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC53831B-8C45-4F77-B048-2FE46D52D98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC53831B-8C45-4F77-B048-2FE46D52D98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2DE79D-4DF9-4531-95F9-B84E87D4F2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2DE79D-4DF9-4531-95F9-B84E87D4F2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2DE79D-4DF9-4531-95F9-B84E87D4F2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2DE79D-4DF9-4531-95F9-B84E87D4F2B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
