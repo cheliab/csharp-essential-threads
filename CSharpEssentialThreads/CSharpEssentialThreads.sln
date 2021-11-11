@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_003", "Threads_003\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_004", "Threads_004\Threads_004.csproj", "{13F33DDC-E91D-4345-89D9-569E026D92B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads_005", "Threads_005\Threads_005.csproj", "{E3576957-7CAD-4CE0-A4AB-5DA1E03BAA76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{13F33DDC-E91D-4345-89D9-569E026D92B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F33DDC-E91D-4345-89D9-569E026D92B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F33DDC-E91D-4345-89D9-569E026D92B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3576957-7CAD-4CE0-A4AB-5DA1E03BAA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3576957-7CAD-4CE0-A4AB-5DA1E03BAA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3576957-7CAD-4CE0-A4AB-5DA1E03BAA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3576957-7CAD-4CE0-A4AB-5DA1E03BAA76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
