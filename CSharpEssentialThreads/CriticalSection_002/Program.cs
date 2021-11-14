@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading;
 
+// Использование класса Monitor в место lock
+// lock компилируется в Monitor
 namespace CriticalSection_002
 {
     class ClassWithMonitor
@@ -11,7 +13,7 @@ namespace CriticalSection_002
         {
             int threadHash = Thread.CurrentThread.GetHashCode();
             
-            Monitor.Enter(locker);
+            Monitor.Enter(locker); // Блокируем участок кода (устанавливает в locker значение null)
 
             for (int counter = 0; counter < 10; counter++)
             {
@@ -20,7 +22,7 @@ namespace CriticalSection_002
             }
             Console.WriteLine(new string('-', 20));
             
-            Monitor.Exit(locker);
+            Monitor.Exit(locker); // Если забыть выйти, остальные потоки не смогут выполнить этот участок кода
         }
     }
     
@@ -41,6 +43,8 @@ namespace CriticalSection_002
 }
 
 // Результат:
+// Аналогично использованию lock все потоки идут по порядку
+
 // Поток № 4: шаг 0
 // Поток № 4: шаг 1
 // Поток № 4: шаг 2
@@ -73,4 +77,21 @@ namespace CriticalSection_002
 // Поток № 5: шаг 7
 // Поток № 5: шаг 8
 // Поток № 5: шаг 9
+// --------------------
+
+// ------------------------------------------
+
+// Результат 2:
+// Пример с закомментированным Monitor.Exit(locker)
+
+// Поток № 4: шаг 0
+// Поток № 4: шаг 1
+// Поток № 4: шаг 2
+// Поток № 4: шаг 3
+// Поток № 4: шаг 4
+// Поток № 4: шаг 5
+// Поток № 4: шаг 6
+// Поток № 4: шаг 7
+// Поток № 4: шаг 8
+// Поток № 4: шаг 9
 // --------------------
