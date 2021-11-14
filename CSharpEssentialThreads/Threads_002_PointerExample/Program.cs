@@ -10,7 +10,7 @@ namespace Thread_002_PointerExample
             unsafe
             {
                 var localVar = 1;
-                var localPointer = &localVar; // адресс локальной переменной в памяти 
+                var localPointer = &localVar; // адресс локальной переменной в памяти (указатель)
             }
         }
         

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 
+// На построение потока уходит время
 namespace Thread_003
 {
     class Program

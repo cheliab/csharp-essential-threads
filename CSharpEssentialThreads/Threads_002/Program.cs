@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 
+// У потока свой стэк и свои локальные переменные
 namespace Threads_002
 {
     class Program
